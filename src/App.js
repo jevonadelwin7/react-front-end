@@ -12,28 +12,10 @@ import ChartList from './form/ChartList';
 import CartList from './View/CartListRedux'
 import CartToolkit from './View/CartToolkit';
 import RegionView from './ViewApi/RegionView';
-import CountryView from './ViewApi/CountryView';
-import LocationView from './ViewApi/LocationView';
-import DepartmentView from './ViewApi/DepartmentView';
-import DependentView from './ViewApi/DependentView';
-import JobView from './ViewApi/JobView';
 function App() {
   return (
     <div>
       <RegionView/>
-      <hr></hr>
-      <CountryView/>
-      <hr></hr>
-      <LocationView/>
-      <hr></hr>
-      <DepartmentView/>
-      <hr></hr>
-      <DependentView/>
-      <hr></hr>
-      <JobView/>
-      
-      
-
     </div>
   );
 }
